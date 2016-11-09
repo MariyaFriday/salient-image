@@ -1,0 +1,30 @@
+{
+  "name": "salient-image",
+  "version": "1.0.0",
+  "description": "Image signature: highlighting sparse salient regions",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/salient-image.git"
+  },
+  "keywords": [
+    "salient",
+    "image",
+    "computer",
+    "vision",
+    "attention",
+    "visual"
+  ],
+  "author": "Pierre Colle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/salient-image/issues"
+  },
+  "homepage": "https://github.com/piercus/salient-image#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
