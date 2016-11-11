@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/piercus/salient-image#readme",
   "dependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "opencv": "git+https://github.com/piercus/node-opencv.git"
   }
 }

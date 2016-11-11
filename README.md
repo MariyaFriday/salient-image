@@ -19,7 +19,7 @@ npm install salient-image
 #### Images
 | examples/input.jpg | examples/output.png | examples/output_with_options.png |
 |---|---|
-| <img src="https://github.com/piercus/salient-image/examples/input.jpg"  width="200px"/> | <img src="https://github.com/piercus/salient-image/examples/output.png"  width="200px"/> | <img src="https://github.com/piercus/salient-image/examples/output_with_options.png"  width="200px"/> |
+| <img src="https://github.com/piercus/salient-image/assets/mona.png"  width="200px"/> | <img src="https://github.com/piercus/salient-image/assets/output.png"  width="200px"/> | <img src="https://github.com/piercus/salient-image/assets/output_with_options.png"  width="200px"/> |
 
 #### Code
 
@@ -28,13 +28,13 @@ var salient = require("salient-image");
 var cv = require("node-opencv");
 
 // Without any options
-salient("examples/input.jpg", function(err, saliency){
+salient("assets/mona.png", function(err, saliency){
   // res is an node-opencv floating-point Matrix
   // maximum is 1, minium is 1
   var imgOutput = new cv.Matrix(saliency.width(), saliency.height);
   saliency.convertTo(imgOutput, cv.Constants.CV_8U);
-  imgOutput.save("examples/output.png");
-  console.log('Image saved to ./examples/output.png');
+  imgOutput.save("assets/output.png");
+  console.log('Image saved to ./assets/output.png');
 });
 ```
 
@@ -45,7 +45,7 @@ salient("examples/input.jpg", function(err, saliency){
 var cv = require("node-opencv");
 
 // Without options
-salient("examples/input.jpg", {
+salient("assets/mona.png", {
     resize : [52, 43], // the resize size
     sigma : 0.045, // the sigma of the gaussian kernel
     gaussianKernel : [10, 10], // the size of the gaussian kernel
