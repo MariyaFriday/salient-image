@@ -18,8 +18,8 @@ npm install salient-image
 
 #### Images
 | examples/input.jpg | examples/output.png | examples/output_with_options.png |
-|---|---|
-| <img src="https://github.com/piercus/salient-image/assets/mona.png"  width="200px"/> | <img src="https://github.com/piercus/salient-image/assets/output.png"  width="200px"/> | <img src="https://github.com/piercus/salient-image/assets/output_with_options.png"  width="200px"/> |
+|---|---|---|
+| <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/mona.png"  width="200px"/> | <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/output.png"  width="200px"/> | <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/output_with_options.png"  width="200px"/> |
 
 #### Code
 
