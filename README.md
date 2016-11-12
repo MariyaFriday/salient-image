@@ -64,12 +64,3 @@ salient("assets/mona.png", {
     console.log('Image saved to ./assets/output_with_options.png');
 });
 ```
-## Algorithm Explanation
-
-1. Resize the image if needed
-
-``
-
-2. Change the color space to human-like color space
-3. Make a DCT (Direct Cosine Transform) over the image
-4. Only consider the sign
