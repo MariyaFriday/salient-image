@@ -25,7 +25,7 @@ npm install salient-image
 
 ```js
 var salient = require("salient-image");
-var cv = require("node-opencv");
+var cv = require("opencv");
 
 // Without any options
 salient("assets/mona.png", function(err, saliency){
