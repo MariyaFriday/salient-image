@@ -64,3 +64,15 @@ salient("assets/mona.png", {
     console.log('Image saved to ./assets/output_with_options.png');
 });
 ```
+## With existing opencv image as input
+
+```
+var img = new cv.Matrix(<...>);
+
+salient({
+    image : img,
+    resize : [200, 200], // the resize size
+    sigma : 0.045, // the sigma of the gaussian kernel
+    gaussianKernel : [11, 11] // the size of the gaussian kernel
+  }, function(err, saliency){ ... });
+```
