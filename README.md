@@ -17,7 +17,7 @@ npm install salient-image
 ### Examples
 
 #### Images
-| examples/input.jpg | examples/output.png | examples/output_with_options.png |
+| assets/input.jpg | assets/output.png | assets/output_with_options.png |
 |---|---|---|
 | <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/mona.png"  width="200px"/> | <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/output.png"  width="200px"/> | <img src="https://raw.githubusercontent.com/piercus/salient-image/master/assets/output_with_options.png"  width="200px"/> |
 
